@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Neshua's Website</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+       <h1 class="header">Neshua Aguilar </h1> 
+    </div>
+    
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div data-sticky-container>
+                <div class="sticky" data-sticky data-margin-top='0'">
+                    <!-- Menu -->
+                    <ul class="menu">
+                        <li class="is-active"><a href="index.html">HOME</a></li>
+                        <li><a href="resume.html">RESUME</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="fun.html">FACTS ABOUT ME</a></li>
+            
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="title-bar hide-for-medium">
+                <button class = "menu-icon" type = "button" data-open = "offCanvas"> </button>
+                <span class = "title-bar-title"> Neshua's Website</span>
+            </div>
+            
+            <ul class = "menu align-center hide-for-small-only sticky">
+                <li class="is-active"><a href="index.html">HOME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="fun.html">FACTS ABOUT ME</a></li>
+
+            </ul>
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-margin-x ">
+                    <div class = "cell large-auto">
+                        <h2 class="subheader">About Me</h2>
+                        <hr>
+                        <hr class="workHr">
+                            <p id = aboutMe>Hello! My name is Neshua Aguilar, I am senior student at Macalester College pursuing a 
+                                Computer Science Major and Data Science minor. I was born in San Pedro Sula, Honduras 
+                                but moved to Roscoe, Illinois about 10 years ago. I have a 7 year old brother and a 1yr old dog named Bruno! I have always been interested in computers 
+                                and technology in general. I took my first ever Computer Science course my freshman year of college and pretty much knew right away that I wanted to keep programming as a potential career path.
+                                The pandemic also reinforced my desire to work in tech as we all began relying on computers for most of our every-day tasks. I have also always loved video games, so my ideal job would be working in game development. 
+                                The video game industry can be a hard place to get into, but I am determined to work hard and earn a spot in the field. In the meantime, I would love to work in UX design and
+                                and front-end web development. I am currently an intern at Surest, a Minneapolis based United Health Care company previously known as Bind Benefits. I am working as a 
+                                QA automation engineer. I am also a Community Engagement Organizer at Macalester's Civic Engagement Center.
+                            </p>
+                    </div>
+                    <div class = "center resumeRightBlock cell large-auto">
+                        <img src = "images/neshuaSmall.jpg" >
+                        <hr class="rightOrangeHr">
+                        <hr class="rightHr">
+                    </div>
+                </div>
+
+                <h3 class="subheader">Connect with Me</h3>
+                <hr class="lightBlueHr">
+                <hr class="lightBlueHr">
+                <div class = "grid-x grid-padding-x">
+                    <div id="linkedInLink" class="center cell small-auto large-auto">
+                        <p>
+                            <a href="https://www.linkedin.com/in/neshua-aguilar-20aa851a9" target="_blank"><img src="images/linkedInPic.png" width="130px" height="130px"> </a> 
+                        </p>    
+                    </div>
+                    <div id="InstagramLink" class="center cell small-auto large-auto ">
+                        <a href="https://www.instagram.com/neshua_a/" target="_blank"><img src="images/instaLogo.svg" width="135" height="135"></a>
+                    </div>
+                </div>
+
+                   
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
