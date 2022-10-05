@@ -1,0 +1,120 @@
+.header {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+    background: #4f6d7a;
+    color: white;
+    font-size: 3rem;
+  }
+
+.resumeHeader{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+body {
+     background-color: #eaeaea;
+}
+
+.subheader{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+
+#aboutMe {
+    text-align: justify;
+    position:relative;
+}
+
+.projectParagraphs{
+    text-align: justify;
+    position:relative;
+}
+
+.myMenu{
+    background-color: #e8dab2;
+}
+
+#headshot{
+    padding: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.center{
+    text-align: center;
+}
+
+.resumeBlock{
+    padding: 2rem;
+    background-color: #c0d6df;
+}
+
+.resumeRightBlock{
+    padding: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    width:70%;
+    text-align:left;
+    margin-left:0;
+    height: 0.5rem;
+    background-color: #dd6e42;
+    color: #dd6e42;
+}
+
+.workHr {
+    width: 80%;
+    text-align: center;
+    margin-left: 0;
+    height: 0.25rem;
+    background-color: #4f6d7a;
+    color: #4f6d7a;
+}
+
+.rightHr {
+    width: 70%;
+    text-align: center;
+    margin-right: 0;
+    height: 0.25rem;
+    background-color: #4f6d7a;
+    color: #4f6d7a;
+}
+
+.rightOrangeHr{
+    width:80%;
+    text-align:center;
+    margin-right:0;
+    height: 0.5rem;
+    background-color: #dd6e42;
+    color: #dd6e42;
+}
+
+.lightBlueHr{
+    width:100%;
+    text-align:center;
+    margin-right:0;
+    height: 0.1rem;
+    background-color: #c0d6df;
+    color: #c0d6df;
+}
+.orangeLongHr{
+    width:100%;
+    text-align:center;
+    height: 0.1rem;
+    background-color: #dd6e42;
+    color: #dd6e42;
+}
