@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div>
+        <div onclick="myFunction()">
             <h1 class="header"> Neshua Aguilar </h1>
         </div>
         
@@ -112,12 +112,12 @@
                             <h4 class="resumeHeader">My favorite TV shows</h4>
                             <ul>
                                 <li><b>BREAKING BAD</b></li>
-                                <p><a href="https://www.imdb.com/title/tt0903747/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg" alt="">
+                                <p><a href="https://www.imdb.com/title/tt0903747/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg" alt="">
                                 </a>
                                 </p>
                                 <li><b>SUCCESION</b></li>
                                 <p>
-                                    <a href="https://www.imdb.com/title/tt7660850/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BZDE0ODVlYjktNjJiMC00ODk4LWIwNTktMWRhZmZiOGFhYmUwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg">
+                                    <a href="https://www.imdb.com/title/tt7660850/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BZTY0YjU0NTUtMGRmNS00NDMyLWI2MzYtNjM2MmM1M2FkMjkyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg">
                                     </a>
                                 </p>
                                 <li><b>SEVERANCE</b></li>
@@ -140,6 +140,14 @@
                         <div id="music" class="cell large-auto">
                             <h5 class="resumeHeader">Music Interests</h5>
                             <ul>
+                                <li><b>Artist: Omar Apollo</b></li>
+                                <li><i>Album: Ivory</i></li>
+                                <p>
+                                <a href="https://open.spotify.com/album/3ZexesAv5PN4RPMiEkOEXC?si=sBQu6bPPTRSVGUuMDvjlmQ" target="_blank">
+                                <img src="https://i.scdn.co/image/ab67616d0000b2731849168b94c93280ecaa8049"></a>
+                                </p>
+                            </ul>
+                            <ul>
                                 <li><b>Artist: Bad Bunny</b></li>
                                 <li><i>Albums: YHLQMDLG, Un Verano Sin Ti</i></li>
                                 <p>
@@ -151,6 +159,7 @@
                                     <img src="https://www.billboard.com/wp-content/uploads/2020/10/Bad-Bunny-YHLQMDLG-billboard-embed-1601560699.jpg?w=1024" ></a>
                                 </p>
                             </ul>
+                            
                         </div>
 
                         <div id="onlineContent" class="cell large-auto center">
@@ -160,14 +169,15 @@
                                 <p>
                                     <a href="https://www.youtube.com/c/mkbhd" target="_blank"> <img src="https://imgproxy.fourthwall.com/WvRXhUr5iSX5PerXmrhiNKQewcr-cJbBZdWBhBjkiPI/w:1024/plain/https://storage.googleapis.com/popshopprod-shop-renderer-assets-q9gk7sc6/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/podcast_mobile.jpg"></a>
                                 </p>
-                                <li><b>H3H3 PODCAST</b></li>
-                                <p>
-                                    <a href="https://www.youtube.com/channel/UCLtREJY21xRfCuEKvdki1Kw" target="_blank"><img src="https://yt3.ggpht.com/ytc/AMLnZu9Ra3--RvagflkweTD3qvaR6GQzlqUVL_s5PdHeAQ=s176-c-k-c0x00ffffff-no-rj" ></a>
-                                </p>
                                 <li><b>HUBERMAN LAB PODCAST</b></li>
                                 <p>
                                     <a href="https://open.spotify.com/show/79CkJF3UJTHFV8Dse3Oy0P?si=f5386f69276741dd" target="_blank"> <img src="https://i.scdn.co/image/ab6765630000ba8a163bf8f74577a2246184654b"></a>
                                 </p>
+                                <li><b>H3H3 PODCAST</b></li>
+                                <p>
+                                    <a href="https://www.youtube.com/channel/UCLtREJY21xRfCuEKvdki1Kw" target="_blank"><img src="https://yt3.ggpht.com/ytc/AMLnZu9Ra3--RvagflkweTD3qvaR6GQzlqUVL_s5PdHeAQ=s176-c-k-c0x00ffffff-no-rj" ></a>
+                                </p>
+
                             </ul>
                         </div>
 
@@ -180,6 +190,11 @@
         <script src="js/foundation.js"></script>
         <script type="application/javascript">
             $(document).foundation();
+        </script>
+        <script>
+            function myFunction() {
+                window.location.href = "index.html";
+            }
         </script>
 
     </body>
