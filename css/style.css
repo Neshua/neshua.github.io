@@ -127,6 +127,8 @@ hr{
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
 
+    justify-content: center;
+
 
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
