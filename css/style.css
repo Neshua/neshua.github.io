@@ -119,6 +119,10 @@ hr{
     color: #dd6e42;
 }
 
+.box:hover{
+    background: #4f6d7a;
+    }
+
 .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #dd6e42; /* The typwriter cursor */
